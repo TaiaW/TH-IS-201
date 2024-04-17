@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(246, 217, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.otherpages {
+    float: right;
+}
+.onpage {
+    float: left;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1 px #555555;
+    position: fixed;
+    color: gray;
+    background-color: rgb(215, 186, 186, 0.5);
+    font-size: 22px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1 px #555555;
+}
+
+.box1{
+    display: flex;
+}
+
+
+.rightbox {
+    flex: 1;
+    padding-bottom: 250px;
+    padding-right: 155px;
+    padding-left: 150px;
+    padding-top: 25px;
+    background: linear-gradient(to top, #e9aef6, rgb(246, 217, 223) );
+}
+
+.mainbody {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    height: 200vh;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+
+}
+
+.footer {
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 10px;
+    position: fixed;
+    background-color: rgb(215, 186, 186, 0.5);
+}
+
+.subheader {
+    float: right;
+}
+.title-background {
+    background: linear-gradient(to bottom, #e9aef6, rgb(246, 217, 223) );
+    padding: 250px; 
+    text-align: center; 
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.smltext {
+    font-size: 35px;
+}
